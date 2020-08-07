@@ -1,0 +1,21 @@
+{
+  "name": "UNIFIbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "memory-cache": "^0.2.0",
+    "node-cron": "^2.0.3",
+    "node-unifiapi": "0.0.54",
+    "telegraf": "^3.38.0"
+  }
+}
